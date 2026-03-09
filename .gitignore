@@ -1,0 +1,35 @@
+venv/
+
+# Top-level data/results directories
+data/
+results/
+
+# AutoMeta caches and data
+AutoMeta/data/
+AutoMeta/results/
+AutoMeta/.cache/
+AutoMeta/src/.cache/
+
+# Python cache files
+__pycache__/
+AutoMeta/src/__pycache__/
+
+# Secrets and environment files
+.env
+.env.*
+*.pem
+*.key
+
+# Logs and checkpoints
+logs/
+*.log
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# IDE and OS junk
+.vscode/
+.idea/
+.DS_Store
