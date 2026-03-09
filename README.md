@@ -29,3 +29,13 @@ streamlit run src/streamlit_app.py
 ## Notes
 
 - Large artifacts, results, caches, and the virtual environment are ignored via `.gitignore` so they are not pushed to the public repository.
+
+## Checkpoints and test datasets
+
+Model checkpoint files (for example `*.pt`, `*.pth`, `*.ckpt`) and test datasets are **not included in this public repository** and are ignored by git.
+If you require access to the trained checkpoints or the test dataset to reproduce results, please open an issue in this repository describing:
+
+- which experiment or script you want to run, and
+- what checkpoints or data you need.
+
+We will then provide guidance or links where possible, subject to licensing and data-sharing constraints.
